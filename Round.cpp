@@ -15,13 +15,13 @@ int chooseSpinner(int level)
     switch (level)
     {
     case 1:
-        sp = dynamic_cast<Spinner *>(new lowStake); 
+        sp = dynamic_cast<Spinner *>(new lowStake);       
         break;
     case 2:
-        sp = dynamic_cast<Spinner *>(new medStake);
+        sp = dynamic_cast<Spinner *>(new medStake);       
         break;
     case 3:
-        sp = dynamic_cast<Spinner *>(new highStake);
+        sp = dynamic_cast<Spinner *>(new highStake);        
         break;
     }
 
@@ -54,6 +54,7 @@ int chooseSpinner(int level)
             
         }
     };
+    delete sp;
     return number;
 }
 int checkRule(int level, int number)
