@@ -102,5 +102,7 @@ int checkRule(int level, int number)
 
 int createRound(int level)
 {   
-    return checkRule(level, chooseSpinner(level)); // How many credit win from this round.
+    return checkRule(level, chooseSpinner(level)); // Return how many credits player win from this round.
+    //check(A,B)  A = 20,100,200  //B=what is the total number in that round
+    // e.g checkRule(20,18)   , then it will return 20*2.25 =45
 };
