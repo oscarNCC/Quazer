@@ -17,7 +17,7 @@ void end()
 int main()
 {
 start:
-    while (credit > 20)
+    while (credit > 19)
     {
         showPlayerCredit();
         cout << "Play? Yes[1] No[2]";
