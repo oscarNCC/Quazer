@@ -38,7 +38,7 @@ start:
             {
                 credit -= 100;
             }
-            else if (level == 3 && won > 3 && credit > 200) //Player need to win at least 300 round and have more than 200 credit to access High Stake game
+            else if (level == 3 && won > 3 && credit > 200) //Player need to win at least 3rounds and more than 200 credit to access High Stake game
             {
                 credit -= 200;
             }
